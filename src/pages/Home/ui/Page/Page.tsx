@@ -3,14 +3,14 @@ import { FC } from "react";
 const Home: FC = () => {
   return (
     <>
-      <div class="bg-[#4A4A4A]">
-        <p class="ml-72 pt-5 font-mono text-xl font-bold text-slate-50">
+      <div className="bg-[#4A4A4A]">
+        <p className="ml-72 pt-5 font-mono text-xl font-bold text-slate-50">
           TOP PICKS FOR YOU
         </p>
-        <div class="flex justify-center bg-[#4A4A4A]">
-          <div class="mx-10 my-10 flex-col">
+        <div className="flex justify-center bg-[#4A4A4A]">
+          <div className="mx-10 my-10 flex-col">
             <a
-              class="relative h-40 w-80 hover:bg-white"
+              className="relative h-40 w-80 hover:bg-white"
               href="https://www.youtube.com/watch?v=9A0BNKoYuMw&ab_channel=DevNguyen"
             >
               <img
@@ -18,22 +18,22 @@ const Home: FC = () => {
                 alt=""
                 className="h-48 w-80 hover:border-2"
               />
-              <div class="z-2 absolute left-1 top-1 h-7 w-10 rounded-sm bg-red-600 text-center">
-                <p class="text-base text-white">Live</p>
+              <div className="z-2 absolute left-1 top-1 h-7 w-10 rounded-sm bg-red-600 text-center">
+                <p className="text-base text-white">Live</p>
               </div>
             </a>
-            <div class="group bg-[#4A4A4A] text-white">
-              <p class="font-sans text-lg font-bold text-gray-400 transition-transform group-hover:scale-105 group-hover:text-white">
+            <div className="group bg-[#4A4A4A] text-white">
+              <p className="font-sans text-lg font-bold text-gray-400 transition-transform group-hover:scale-105 group-hover:text-white">
                 Skip and Shannon: Undisputed
               </p>
-              <p class="text-xs font-light text-gray-400">
+              <p className="text-xs font-light text-gray-400">
                 FS1 • Today, 9:30 AM - 12:00 PM
               </p>
             </div>
           </div>
-          <div class="mx-10 my-10 flex-col">
+          <div className="mx-10 my-10 flex-col">
             <a
-              class="relative h-40 w-80 hover:bg-white"
+              className="relative h-40 w-80 hover:bg-white"
               href="https://www.youtube.com/watch?v=9A0BNKoYuMw&ab_channel=DevNguyen"
             >
               <img
@@ -41,22 +41,22 @@ const Home: FC = () => {
                 alt=""
                 className="h-48 w-80 hover:border-2"
               />
-              <div class="z-2 absolute left-1 top-1 h-7 w-10 rounded-sm bg-red-600 text-center">
-                <p class="text-base text-white">Live</p>
+              <div className="z-2 absolute left-1 top-1 h-7 w-10 rounded-sm bg-red-600 text-center">
+                <p className="text-base text-white">Live</p>
               </div>
             </a>
-            <div class="group bg-[#4A4A4A] text-white">
-              <p class="font-sans text-lg font-bold text-gray-400 transition-transform group-hover:scale-105 group-hover:text-white">
+            <div className="group bg-[#4A4A4A] text-white">
+              <p className="font-sans text-lg font-bold text-gray-400 transition-transform group-hover:scale-105 group-hover:text-white">
                 SportsCenter
               </p>
-              <p class="text-xs font-light text-gray-400">
+              <p className="text-xs font-light text-gray-400">
                 ESPN • Today, 7:30 AM - 9:00 PM
               </p>
             </div>
           </div>
-          <div class="mx-10 my-10 flex-col">
+          <div className="mx-10 my-10 flex-col">
             <a
-              class="relative h-40 w-80 hover:border-white"
+              className="relative h-40 w-80 hover:border-white"
               href="https://www.youtube.com/watch?v=9A0BNKoYuMw&ab_channel=DevNguyen"
             >
               <img
@@ -64,15 +64,15 @@ const Home: FC = () => {
                 alt=""
                 className="h-48 w-80 hover:border-2"
               />
-              <div class="z-2 absolute left-1 top-1 h-7 w-10 rounded-sm bg-red-600 text-center">
-                <p class="text-base text-white">Live</p>
+              <div className="z-2 absolute left-1 top-1 h-7 w-10 rounded-sm bg-red-600 text-center">
+                <p className="text-base text-white">Live</p>
               </div>
             </a>
-            <div class="group bg-[#4A4A4A] text-white">
-              <p class="font-sans text-lg font-bold text-gray-400 transition-transform group-hover:scale-105 group-hover:text-white">
+            <div className="group bg-[#4A4A4A] text-white">
+              <p className="font-sans text-lg font-bold text-gray-400 transition-transform group-hover:scale-105 group-hover:text-white">
                 Premier League Mornings
               </p>
-              <p class="text-xs font-light text-gray-400">
+              <p className="text-xs font-light text-gray-400">
                 NBCSN • Today, 7:00 AM - 8:00 PM
               </p>
             </div>
