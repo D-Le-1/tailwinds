@@ -3,27 +3,82 @@ import { FC } from "react";
 const Home: FC = () => {
   return (
     <>
-      <section>
-        <div className="hero min-h-[calc(100vh-64px)] bg-base-200">
-          <div className="hero-content flex-col lg:flex-row">
-            <img
-              src="/images/hero.webp"
-              className="max-w-sm rounded-lg shadow-2xl"
-            />
-            <div>
-              <h1 className="text-5xl font-bold">Welcome</h1>
-              <p className="py-5">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia
-                minima laboriosam maxime sed dignissimos harum provident itaque
-                fugiat. A repellat aliquid inventore dolor tempora, omnis
-                perferendis aspernatur quo nisi excepturi. Ex, ullam odio iusto
-                esse necessitatibus doloremque repudiandae!
+      <div class="bg-[#4A4A4A]">
+        <p class="ml-72 pt-5 font-mono text-xl font-bold text-slate-50">
+          TOP PICKS FOR YOU
+        </p>
+        <div class="flex justify-center bg-[#4A4A4A]">
+          <div class="mx-10 my-10 flex-col">
+            <a
+              class="relative h-40 w-80 hover:bg-white"
+              href="https://www.youtube.com/watch?v=9A0BNKoYuMw&ab_channel=DevNguyen"
+            >
+              <img
+                src="https://m.media-amazon.com/images/M/MV5BOGQ1MjI0OTctN2RjYi00OTdiLWJkYmMtYWM5MzJjMjZmZTEzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+                alt=""
+                className="h-48 w-80 hover:border-2"
+              />
+              <div class="z-2 absolute left-1 top-1 h-7 w-10 rounded-sm bg-red-600 text-center">
+                <p class="text-base text-white">Live</p>
+              </div>
+            </a>
+            <div class="group bg-[#4A4A4A] text-white">
+              <p class="font-sans text-lg font-bold text-gray-400 transition-transform group-hover:scale-105 group-hover:text-white">
+                Skip and Shannon: Undisputed
               </p>
-              <button className="btn-primary btn">Get Started</button>
+              <p class="text-xs font-light text-gray-400">
+                FS1 • Today, 9:30 AM - 12:00 PM
+              </p>
+            </div>
+          </div>
+          <div class="mx-10 my-10 flex-col">
+            <a
+              class="relative h-40 w-80 hover:bg-white"
+              href="https://www.youtube.com/watch?v=9A0BNKoYuMw&ab_channel=DevNguyen"
+            >
+              <img
+                src="https://ca-times.brightspotcdn.com/dims4/default/a98693c/2147483647/strip/false/crop/2048x1363+0+0/resize/1486x989!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fc6%2Fb0%2F646d3b53b3f2dccce7ac8d060a00%2Fla-fi-ct-espn-sports-center-1-jpg-20160307"
+                alt=""
+                className="h-48 w-80 hover:border-2"
+              />
+              <div class="z-2 absolute left-1 top-1 h-7 w-10 rounded-sm bg-red-600 text-center">
+                <p class="text-base text-white">Live</p>
+              </div>
+            </a>
+            <div class="group bg-[#4A4A4A] text-white">
+              <p class="font-sans text-lg font-bold text-gray-400 transition-transform group-hover:scale-105 group-hover:text-white">
+                SportsCenter
+              </p>
+              <p class="text-xs font-light text-gray-400">
+                ESPN • Today, 7:30 AM - 9:00 PM
+              </p>
+            </div>
+          </div>
+          <div class="mx-10 my-10 flex-col">
+            <a
+              class="relative h-40 w-80 hover:border-white"
+              href="https://www.youtube.com/watch?v=9A0BNKoYuMw&ab_channel=DevNguyen"
+            >
+              <img
+                src="https://e0.365dm.com/24/07/2048x1152/skysports-premier-league-season_6629191.jpg?20241210105711"
+                alt=""
+                className="h-48 w-80 hover:border-2"
+              />
+              <div class="z-2 absolute left-1 top-1 h-7 w-10 rounded-sm bg-red-600 text-center">
+                <p class="text-base text-white">Live</p>
+              </div>
+            </a>
+            <div class="group bg-[#4A4A4A] text-white">
+              <p class="font-sans text-lg font-bold text-gray-400 transition-transform group-hover:scale-105 group-hover:text-white">
+                Premier League Mornings
+              </p>
+              <p class="text-xs font-light text-gray-400">
+                NBCSN • Today, 7:00 AM - 8:00 PM
+              </p>
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </>
   );
 };
